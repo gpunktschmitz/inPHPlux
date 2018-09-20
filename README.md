@@ -46,5 +46,5 @@ The measurement name is pre-set to the ini-filename (`auto_tanken.ini` results i
 
 The default value is the current timestamp but can be changed either by editing the input string or using the datetime picker.
 
-<img src="https://github.com/gpunktschmitz/inPHPlux/raw/master/README.images/example-form.png">
+<img src="https://github.com/gpunktschmitz/inPHPlux/raw/master/README.images/datetime-picker.png">
 
