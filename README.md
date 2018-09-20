@@ -20,7 +20,6 @@ strasse=
 [valuesets]
 euro=
 liter=
-preisproliter=
 ```
 
 ### database
