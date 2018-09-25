@@ -126,7 +126,7 @@ foreach($formSetup['valuesets'] as $key=>$defaultValue) {
 <?php  
 }
 ?>
-		<label for="datetime">datetime</label>&nbsp;<input type="text" name="datetime" id="datetime" value="<?php echo date('Y/m/d H:m'); ?>"/><br/><br/>
+		<label for="datetime">datetime</label>&nbsp;<input type="text" name="datetime" id="datetime" value="<?php echo date('Y/m/d H:i'); ?>"/><br/><br/>
 		<label for="database">database</label>&nbsp;<input type="text" name="database" id="database" value="<?php echo $formSetup['database']; ?>"/><br/><br/>
 		<button>submit</button>
 	</form>
