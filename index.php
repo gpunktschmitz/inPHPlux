@@ -22,7 +22,7 @@ function influxDbWrite($post,$database) {
 <html lang="en">
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-	<link rel="stylesheet" type="text/css" href="/css/jquery.datetimepicker.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css"/>
 	<title>inPHPlux</title>
 </head>
 <body>
@@ -130,8 +130,8 @@ foreach($formSetup['valuesets'] as $key=>$defaultValue) {
 		<label for="database">database</label>&nbsp;<input type="text" name="database" id="database" value="<?php echo $formSetup['database']; ?>"/><br/><br/>
 		<button>submit</button>
 	</form>
-	<script src="/js/jquery.js"></script>
-	<script src="/js/jquery.datetimepicker.full.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.datetimepicker.full.min.js"></script>
 	<script>
 	$.datetimepicker.setLocale('en');
 	
